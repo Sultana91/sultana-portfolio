@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sultana Yasmin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e0b6e181bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo"> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi, I'm <span>Sultana Yasmin</span> From USA</h1>
+
+        </div>
+
+    </div>
+  </div> 
+  <!---------------about------->>
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/aboutme.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="describtion">About Me</h1>
+                <p>Hello! I'm a passionate and aspiring web developer with
+                    a strong foundation in web technologies. I have embarked on my journey in web development
+                    with a combination of formal education and hands-on project experience.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Developer</span><br>Developed complete responsive Web Applications with HTML, CSS, JavaScript</li>
+                            <li><span>Web with Shopify</span><br>Developed e-commerce websites with Shopify</li>
+                            <li><span>Web with AI</span><br>Developed websites with AI</li>
+                            <li><span>Programming Skills</span><br>C++, Object oriented with Java, Python, SQL & basic PHP</li>
+                            <li><span>Others</span><br>Git, github, Canva,</li>
+
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>Building various types of Web applications</li>
+                            <li><span>2022(july)-2023(May)</span><br> internship at Mindhome Inc. as an Web developer</li>
+                            
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017-2021</span><br>Completed Associte degree on Software development
+                            <br>from Kansas City, Missouri</li>
+                            
+                        </ul>
+
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+  </div>
+
+  <!-----------------services------------->
+  <div id="services">
+    <div class="container">
+        <h1 class="describtion">My Services</h1>
+        <div class="services-list">
+            <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Responsive Landing Page</h2>
+            <p>Developing full responsive website/Landing page with html, css and javascript.</p>
+            <a href="#">Learn more</a>
+            </div>
+            <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Personal / Professional Website</h2>
+            <p>Developing portfolio in vary short time</p>
+            <a href="#">Learn more</a>
+            </div>
+            <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>E-commerce / Business Website</h2>
+            <p>Creating all kinds of e-commerce and business Website</p>
+            <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+    
+
+  </div>
+
+  <!------------------Portfolio----------------------->
+
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="describtion">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3>E-commece Website</h3>
+                    <p>This is an e-commerce website build with HTML, CSS and JavaScript</p>
+                    <a href="https://sultana91.github.io/plantWeb/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3>Business Website</h3>
+                    <p>This Website is built using the artificial intelligent</p>
+                    <a href="https://sultana91.github.io/web-with-AI/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.jpg">
+                <div class="layer">
+                    <h3>Website With Shopify</h3>
+                    <p>Please Use this Key: ayzaan21</p>
+                    <a href="https://easycaare.myshopify.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://github.com/Sultana91" class="btn">See more</a>
+
+    </div>
+
+  </div>
+  <!----------------contact--------------------------->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sultana.sayem@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>#######</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/sultana-yasmin-a28b57213/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Sultana91"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="image/resume2024.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sultana. Made with Sultana's Design</p>
+
+    </div>
+
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
